@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="36dc-14fc-8872-476b" name="LA -   VIII: Night Lords" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="70" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="36dc-14fc-8872-476b" name="LA -   VIII: Night Lords" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue">
   <entryLinks>
     <entryLink id="f491-c7fa-f6d3-917d" name="Contekar Terminator Squad" hidden="false" collective="false" import="false" targetId="837e-c3ca-437e-dfbf" type="selectionEntry">
       <modifiers>
@@ -1326,12 +1326,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7897-ea6c-4555-b94b" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
-          <comment>template_id_b24f-3ae0-4cbb-b016</comment>
-        </categoryLink>
         <categoryLink id="2e6d-a5bc-484e-b30a" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
           <comment>template_id_fd26-8e6b-4521-92b9</comment>
         </categoryLink>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="9e4d-ef7e-9ee1-3bab" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9cb7-e623-a570-7f9b" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
