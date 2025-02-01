@@ -3753,6 +3753,28 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Termite Assault Drill" hidden="true" id="62da-f5a3-a724-23a0" collective="false" targetId="cb30-307a-f0d7-3b13" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="a621-2c8c-3df0-89d3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="10" field="selections" scope="7587-35cc-01f6-b5d2" childId="1318-115c-4ca4-1d8b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="1" field="e9af-738d-5a98-9308">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="a621-2c8c-3df0-89d3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e9af-738d-5a98-9308" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="74e5-68c2-768d-a916" name="2) One Praetorian may take:" hidden="false" collective="false" import="true">

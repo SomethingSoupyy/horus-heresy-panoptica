@@ -4653,6 +4653,12 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Rhino Transport" hidden="false" id="abdf-45d2-14fe-272a" collective="false" targetId="03f1-8ed9-9867-8d18" type="selectionEntry"/>
+            <entryLink import="true" name="Termite Assault Drill" hidden="false" id="ae04-4bdc-acd9-cdd9" collective="false" targetId="cb30-307a-f0d7-3b13" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="2) Sanctifiers" hidden="false" id="fbdd-ec6a-968d-cd06" defaultSelectionEntryId="ab5f-798e-465a-e01f">
