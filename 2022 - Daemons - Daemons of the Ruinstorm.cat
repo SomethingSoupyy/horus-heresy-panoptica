@@ -1429,7 +1429,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="A Ruinstorm Behemoth may select the following option:" id="0103-5f71-ff5f-f737" hidden="false">
+        <selectionEntryGroup name="A Ruinstorm Behemoth may select the following option:" id="0103-5f71-ff5f-f737" hidden="false" defaultSelectionEntryId="9edd-5ea2-4e49-7761">
           <entryLinks>
             <entryLink import="true" name="The Unmaking" hidden="false" id="9edd-5ea2-4e49-7761" type="selectionEntry" targetId="eb14-1d7a-62f3-60ac">
               <costs>
