@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6af7-3fee-5bc1-7533" name="LI - Solar Auxilia" revision="43" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6af7-3fee-5bc1-7533" name="LI - Solar Auxilia" revision="44" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue">
   <categoryEntries>
     <categoryEntry id="19f3-8727-02db-3ce5" name="Static Artillery" hidden="false">
       <rules>
@@ -705,7 +705,8 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="bebe-feb0-e8f8-09df" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="0aa1-a534-4cf1-f711" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="0aa1-a534-4cf1-f711" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="false"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="04a9-d8ee-1868-fc6c" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b4a3-983c-1a89-e10f" name="Cults Abominatio" hidden="false" collective="false" import="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
@@ -2507,7 +2508,7 @@
                     <entryLink id="3772-71f9-6c12-ca51" name="Bolter" hidden="false" collective="false" import="true" targetId="1ade-0c02-5612-252b" type="selectionEntry"/>
                     <entryLink id="0bc6-c9c5-729d-139d" name="Magna Combi-weapon" hidden="false" collective="false" import="true" targetId="4d02-259d-fa50-ef3a" type="selectionEntry">
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink id="bca6-8ff1-3a59-ab03" name="Minor Combi-weapon" hidden="false" collective="false" import="true" targetId="53c0-b5d7-f001-b816" type="selectionEntry">
@@ -3020,7 +3021,7 @@
             <selectionEntryGroup id="092d-2397-8f02-c431" name="Veletarii" hidden="false" collective="false" import="true" defaultSelectionEntryId="c39a-711f-3566-712d">
               <constraints>
                 <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1168-de26-e5bc-3a25" type="min"/>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ed-c168-0aa5-e59a" type="max"/>
+                <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ed-c168-0aa5-e59a" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="0e92-6f2e-8f92-40bf" name="Veletarii w/ Power Sword" hidden="false" collective="false" import="true" type="model">
@@ -3404,7 +3405,7 @@
             <entryLink id="6d79-07e1-b369-3180" name="Fear (Feral Cohort)" hidden="false" collective="false" import="true" targetId="aefe-eff6-2961-a445" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="58"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="18"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c51e-5dce-2d97-4a99" name="Veletaris Storm Section" hidden="false" collective="false" import="true" type="unit">
@@ -5080,7 +5081,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
       <profiles>
         <profile id="ae05-0bdd-574e-b386" name="Dracosan Armoured Transport" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
           <modifiers>
-            <modifier type="set" field="0c90-79e2-f768-e547" value="10">
+            <modifier type="set" field="0c90-79e2-f768-e547" value="12">
               <conditions>
                 <condition field="selections" scope="496b-a01b-3726-0a44" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d4a-05a3-1589-915d" type="equalTo"/>
               </conditions>
@@ -5113,7 +5114,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <entryLink id="a2de-e36e-920f-ed49" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry"/>
             <entryLink id="0ac0-2320-b38c-ff37" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="1d4a-05a3-1589-915d" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -5196,7 +5197,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5041-9403-02b7-af14" name="Arvus Transport" hidden="false" collective="false" import="true" type="upgrade">
@@ -5598,7 +5599,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <selectionEntryGroup id="1eaf-bbe0-04a5-22c1" name="Auxilia Veterans" hidden="false" collective="false" import="true" defaultSelectionEntryId="38fa-8a5c-8183-737e">
               <constraints>
                 <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-57f3-1211-43fb" type="min"/>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac8-ebed-57d9-9346" type="max"/>
+                <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac8-ebed-57d9-9346" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="38fa-8a5c-8183-737e" name="Auxilia Veteran w/ Lasrifle" hidden="false" collective="false" import="true" type="model">
@@ -5643,7 +5644,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="846b-a82e-4b8d-94d6" name="Infantry Unit Type" primary="false"/>
@@ -5673,7 +5674,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="9"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="db2d-d153-4567-a527" name="Infantry Unit Type" primary="false"/>
@@ -5704,7 +5705,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4d30-2332-4684-8a69" name="Infantry Unit Type" primary="false"/>
@@ -5735,7 +5736,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="bae6-0272-4b1a-9f0d" name="Infantry Unit Type" primary="false"/>
@@ -5766,7 +5767,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c113-d488-46c6-a7a9" name="Infantry Unit Type" primary="false"/>
@@ -5797,7 +5798,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4b89-4817-431d-8c0a" name="Infantry Unit Type" primary="false"/>
@@ -5828,7 +5829,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="19a3-2c49-42b2-b40f" name="Infantry Unit Type" primary="false"/>
@@ -5861,7 +5862,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <entryLink id="ad70-8d7f-026a-3523" name="Fear (Feral Cohort)" hidden="false" collective="false" import="true" targetId="aefe-eff6-2961-a445" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="33"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="16"/>
           </costs>
           <categoryLinks>
             <categoryLink name="SA or IM Unit" hidden="false" id="5255-f80d-d455-17e3" targetId="4aca-2849-7f41-0200" primary="false"/>
@@ -6990,7 +6991,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
                             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
                             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
-                            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
                             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
                             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
                             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
@@ -7073,7 +7074,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="145"/>
                       </costs>
                       <categoryLinks>
                         <categoryLink targetId="e2b6-b770-784c-9e95" id="5c0b-faa9-4959-ae28" name="Vehicle:" primary="false"/>
@@ -8411,7 +8412,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 </entryLink>
                 <entryLink id="dc68-bfa9-7008-eb02" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="1d4a-05a3-1589-915d" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -8447,7 +8448,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     <modifier type="set" field="name" value="Hull (Left) &amp; Hull (Right) Mounted Lascannon"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -9567,7 +9568,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             </selectionEntry>
             <selectionEntry id="5f07-95b6-fbff-d53e" name="Two Sponson Mounted Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="0">
                   <repeats>
                     <repeat field="selections" scope="2918-e98d-0ab1-811b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e067-3e89-30e3-aed8" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9590,7 +9591,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             </selectionEntry>
             <selectionEntry id="3e04-7aeb-959d-61ef" name="Two Sponson Mounted Lascannons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="20">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="15">
                   <repeats>
                     <repeat field="selections" scope="2918-e98d-0ab1-811b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e067-3e89-30e3-aed8" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9613,7 +9614,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             </selectionEntry>
             <selectionEntry id="25d6-a17a-5db1-6969" name="Two Sponson Mounted Autocannon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="5">
                   <repeats>
                     <repeat field="selections" scope="2918-e98d-0ab1-811b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e067-3e89-30e3-aed8" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9636,7 +9637,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             </selectionEntry>
             <selectionEntry id="32ae-5000-8b0a-19ef" name="Two Sponson Mounted Multi-lasers" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="0">
                   <repeats>
                     <repeat field="selections" scope="2918-e98d-0ab1-811b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e067-3e89-30e3-aed8" repeats="1" roundUp="false"/>
                   </repeats>
@@ -10016,7 +10017,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -10114,7 +10115,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
                   </costs>
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Proteus Laser Destroyer" hidden="false" id="6b62-613b-1dd7-2d50">
@@ -10262,12 +10263,12 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
       <categoryLinks>
         <categoryLink id="3cf6-cfb2-9cec-19aa" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
         <categoryLink id="0894-5a2a-e649-9e11" name="Super-heavy Sub-type" hidden="false" targetId="7381-1130-ca6e-1806" primary="false"/>
-        <categoryLink id="ef5d-7e4a-3f44-2c74" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="cead-8ccb-3f47-dff2" primary="true" name="Heavy Support:"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="83fd-3959-0a1c-1815" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c92-9871-cb11-6f1e" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c92-9871-cb11-6f1e" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f1-9d79-2ce9-8793" type="min"/>
           </constraints>
           <profiles>
@@ -10383,12 +10384,12 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="280"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="335"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="1) Main Cannon" hidden="false" id="f63b-b35f-38f5-9de2" collective="false" import="true" defaultSelectionEntryId="4530-f4f8-699a-99d9">
@@ -10522,7 +10523,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c10-5772-2e27-1e51" name="Baneblade" hidden="false" collective="false" import="true" type="unit">
@@ -10658,7 +10659,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bb3-2416-aaca-8e40" name="Banehammer" hidden="false" collective="false" import="true" type="unit">
@@ -10776,7 +10777,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bae-aaa9-9840-e2eb" name="Stormlord" hidden="false" collective="false" import="true" type="unit">
@@ -10886,7 +10887,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4713-c9ee-2c57-9457" name="Shadowsword" hidden="false" collective="false" import="true" type="unit">
@@ -11003,7 +11004,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="525"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d0b-9f37-cd30-0db7" name="Stormsword" hidden="false" collective="false" import="true" type="unit">
@@ -11132,7 +11133,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d13-ea6e-e48d-f352" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" type="unit">
@@ -11248,7 +11249,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cec-2913-77a0-c4e4" name="Crassus Armoured Assault Transport" hidden="false" collective="false" import="true" type="unit">
@@ -11556,7 +11557,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="Aethon Heavy Sentinel Squadron" type="unit" id="a67f-63df-43c3-8e3c" page="182" publicationId="d882-d2a-5da1-92c4">

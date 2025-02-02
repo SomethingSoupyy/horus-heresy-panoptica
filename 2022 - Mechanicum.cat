@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c247-da79-1654-d39e" name="Mechanicum" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue" publicationId="3886-76e5-438f-159f">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c247-da79-1654-d39e" name="Mechanicum" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue" publicationId="3886-76e5-438f-159f">
   <entryLinks>
     <entryLink id="29c6-0ec7-0162-e817" name="Mechanicum" hidden="false" collective="false" import="false" targetId="ddf5-d792-3146-6e9a" type="selectionEntry">
       <modifiers>
@@ -3006,7 +3006,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             <entryLink id="1ce9-93a4-ea75-55b9" name="Volkite Charger" hidden="false" collective="false" import="true" targetId="6f6e-ad55-e093-6503" type="selectionEntry"/>
             <entryLink id="4ee1-9ccc-acde-97c3" name="Graviton Gun" hidden="false" collective="false" import="true" targetId="5303-5a3e-de51-1707" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="0aed-ef35-dff7-3fbd" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b3c5-237f-e1d2-d9f8" type="selectionEntry">
@@ -3016,7 +3016,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             </entryLink>
             <entryLink id="cebd-f1c6-ae9c-ad75" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="17c6-afe9-c5da-d9b6" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3072,7 +3072,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">2</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3666,7 +3666,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="273e-3521-88d1-d5c4"/>
@@ -3821,13 +3821,6 @@ This unit may be upgraded freely as described in their profile, though they may 
           </constraints>
           <selectionEntries>
             <selectionEntry id="709c-ef33-7654-982e" name="Two Power Fists*" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="bbe0-7cfc-7c00-94f5" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0750-2aed-2d36-8a82" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe0-7cfc-7c00-94f5" type="max"/>
               </constraints>
@@ -4648,7 +4641,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="800"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="700"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2185-5fd1-2e59-b467" name="Archmagos Anacharis Scoria" publicationId="bde1-6db1-163b-3b76" page="62" hidden="false" collective="false" import="true" type="unit">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1701" name="LI - Custodes" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2f2b-1f31-c455-1701" name="LI - Custodes" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="70" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ccca-a9de-0cd9-f8be" name="Legio Custodes" hidden="false">
       <infoLinks>
@@ -493,10 +493,14 @@
                 <entryLink id="80d7-e8ea-f760-7c32" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
                 <entryLink id="9464-6576-ae15-0d36" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
+                <entryLink id="0281-832b-19e6-50c1" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="d420-be7e-17f3-efcc" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -514,7 +518,7 @@
                 </entryLink>
                 <entryLink id="9146-b43c-8dc9-b221" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9f52-9a89-827f-3e02" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>
@@ -779,7 +783,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="500a-cfd0-6613-74c9" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="3baa-0c93-737e-2986" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
+                <entryLink id="3baa-0c93-737e-2986" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="f99c-9468-c0c6-a865" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-da16-84b9-22a8" type="max"/>
                   </constraints>
@@ -789,7 +793,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50a-ec64-213f-e67b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
                 <entryLink id="f114-1264-5f4d-862c" name="Pyrithite Spear" hidden="false" collective="false" import="true" targetId="4620-e360-7dd2-f908" type="selectionEntry">
@@ -855,7 +859,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ab03-271b-4a46-8fbe" name="Infantry Unit Type" primary="false"/>
@@ -2094,7 +2098,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2b53-452a-435d-f29d" name="Venatari w/ Venatari Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2139,7 +2143,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2178,7 +2182,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a39-6452-e075-c8d6" name="Sagittarum Guard Squad" publicationId="15a4-fc68-502d-48a9" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -3427,10 +3431,14 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
             <entryLink id="affd-2143-1c9e-17f6" name="Sentinel Warblade" hidden="false" collective="false" import="true" targetId="6909-d6c6-8d05-0e57" type="selectionEntry"/>
             <entryLink id="1be3-d3ac-4975-5411" name="Paragon Blade" hidden="false" collective="false" import="true" targetId="2ab9-0e45-405e-056b" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
             </entryLink>
-            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry"/>
+            <entryLink id="2fbc-0de5-8b8f-ca1d" name="Meridian Swords" hidden="false" collective="false" import="true" targetId="9664-33bc-927e-5ba3" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+              </costs>
+            </entryLink>
             <entryLink id="35b7-60c7-d938-44f7" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9786-98f2-bdab-5103" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -3448,7 +3456,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
             </entryLink>
             <entryLink id="4b62-44bd-1fe7-2c96" name="Paragon Glaive" hidden="false" collective="false" import="true" targetId="a9fc-4298-7b35-8ef4" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="dc58-66af-84f4-984f" name="Guardian Axe" hidden="false" collective="false" import="true" targetId="1334-e423-944e-9499" type="selectionEntry"/>

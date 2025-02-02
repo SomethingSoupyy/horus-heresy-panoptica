@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac63-5340-2e9e-1eb6" name="Daemons - Daemons of the Ruinstorm" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="77" revision="14" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac63-5340-2e9e-1eb6" name="Daemons - Daemons of the Ruinstorm" gameSystemId="28d4-bd2e-4858-ece8" gameSystemRevision="77" revision="15" battleScribeVersion="2.03" type="catalogue">
   <entryLinks>
     <entryLink import="false" name="Daemons of the Ruinstorm" hidden="false" type="selectionEntry" id="e271-f450-1c28-5b7b" targetId="afca-3047-fb26-d097">
       <constraints>
@@ -230,7 +230,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf49-e79d-d174-eb95"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -251,7 +251,7 @@
             </entryLink>
             <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="bc4-6f59-2af1-116d" targetId="fd64-626a-d3d4-9b8e">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="cfc-f8bc-d665-7c0c" targetId="7647-8112-eaf7-fbea">
@@ -332,12 +332,6 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="d43f-71c8-cbf2-cff0" targetId="caad-e621-38e5-cb5f"/>
-        <entryLink import="true" name="Infernal Armaments" hidden="false" type="selectionEntry" id="40ef-9284-1d09-74c0" targetId="9abc-11e8-9031-d104">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de9-d9cd-9f99-404d"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d098-eed3-d888-ab67"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="1655-8fed-b79a-24f6" targetId="0176-56a3-d590-b103"/>
         <entryLink import="true" name="Warlord Traits (Ruinstorm Daemons)" hidden="false" type="selectionEntryGroup" id="f5c1-536d-3f92-a419" targetId="2f76-74c1-d329-d3ab"/>
       </entryLinks>
@@ -417,6 +411,28 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="3419-aef8-d43d-b059" hidden="false" defaultSelectionEntryId="b64e-f1a1-b319-41df">
+          <entryLinks>
+            <entryLink import="true" name="Sovereign Armaments" hidden="false" id="2970-58ad-a54b-f9d0" type="selectionEntry" targetId="c859-2be-6d66-d3da">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="694e-763c-927f-0214"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Infernal Armaments" hidden="false" id="b64e-f1a1-b319-41df" type="selectionEntry" targetId="9abc-11e8-9031-d104">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64ef-f40e-1f7b-86f8"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ed4-6617-7379-0a23"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73c5-af84-7238-e1d1"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8733-5aaa-457c-8b52"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
         <modifier type="add" field="category" value="9231-183c-b97b-63f9">
@@ -446,7 +462,7 @@
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="append" field="ddd7-6f5c-a939-b69e" value="(Heavy)">
@@ -510,6 +526,12 @@
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Harbinger Blade" hidden="false" type="selectionEntry" id="ba69-b72-c0fc-1b18" targetId="7192-6fa1-c141-41fd"/>
+                <entryLink import="true" name="Infernal Armaments" hidden="false" id="3026-5884-78e9-7f94" type="selectionEntry" targetId="9abc-11e8-9031-d104">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="213d-d93a-49dd-c971"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65cc-955b-fcd2-8546"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -716,7 +738,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Beasts" hidden="false" id="69ad-927-c71b-6b24" publicationId="8775-88f5-cfdd-24f6" page="10">
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="db7d-815a-fd7-6518" targetId="caad-e621-38e5-cb5f"/>
@@ -761,7 +783,7 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Daemon Beast w/ Daemon Armaments" hidden="false" id="e8d9-781b-531d-9386" publicationId="8775-88f5-cfdd-24f6" page="10">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="12ce-1575-7802-1ec6"/>
@@ -808,7 +830,7 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Daemon Beast w/ Immaterial Flame" hidden="false" id="5828-5d74-9c9b-edc5" publicationId="8775-88f5-cfdd-24f6" page="10">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d0f7-ad9b-b159-8d54"/>
@@ -907,9 +929,6 @@
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-      </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="984b-1653-1706-eaf" targetId="caad-e621-38e5-cb5f"/>
       </entryLinks>
@@ -1174,7 +1193,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="8599-7755-d965-7c69" targetId="caad-e621-38e5-cb5f"/>
@@ -1410,6 +1429,15 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="A Ruinstorm Behemoth may select the following option:" id="0103-5f71-ff5f-f737" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="The Unmaking" hidden="false" id="9edd-5ea2-4e49-7761" type="selectionEntry" targetId="eb14-1d7a-62f3-60ac">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="dc61-4e39-99b9-8398" targetId="caad-e621-38e5-cb5f"/>
@@ -1553,7 +1581,7 @@
             </entryLink>
             <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="8e8a-3519-1fd6-8ae4" targetId="fd64-626a-d3d4-9b8e">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="218a-b6fd-3f25-1424" targetId="7647-8112-eaf7-fbea">

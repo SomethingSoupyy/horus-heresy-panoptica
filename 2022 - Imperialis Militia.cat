@@ -2663,7 +2663,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
                 <entryLink id="b568-2222-fb59-33bb" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="f0d1-332b-c719-ede7" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="48eb-3594-90d3-334d" name="Needle Vulnus" hidden="true" collective="false" import="true" targetId="69b0-3b27-e0fc-c87c" type="selectionEntry">
@@ -2739,7 +2739,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2d74-1fc2-43ec-963d" name="Infantry Unit Type" primary="false"/>
@@ -2837,7 +2837,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <entryLink id="ee8a-3d77-b3fc-8f04" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="13"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4a8-0824-b604-3277" name="IM - Infantry Squad" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -5237,7 +5237,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5537-0c68-4499-972c" name="Infantry Unit Type" primary="false"/>
@@ -5281,7 +5281,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2b1f-3565-4790-861f" name="Infantry Unit Type" primary="false"/>
@@ -5369,7 +5369,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
@@ -5409,7 +5409,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="53cf-4e7c-4b0f-b16e" name="Infantry Unit Type" primary="false"/>
@@ -5451,7 +5451,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6849-022b-4f86-a5dc" name="Infantry Unit Type" primary="false"/>
@@ -5490,7 +5490,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7d70-7d41-41d5-963e" name="Infantry Unit Type" primary="false"/>
@@ -5524,7 +5524,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7758-9588-4f1e-9fd7" name="Infantry Unit Type" primary="false"/>
@@ -5539,7 +5539,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <entryLink id="7205-3850-19d2-ec2f" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a90-6dc5-1e0b-9eaf" name="IM - Reconnaissance Squad" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -5936,7 +5936,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <entryLink id="502f-76e9-4101-f1c5" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69d4-e221-a0cb-e428" name="IM - Field Gun Battery" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -6119,7 +6119,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <infoLink id="8d26-81bb-57f6-9b0b" name="Heavy Lascannon" hidden="false" targetId="a911-f050-1265-8967" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6163,7 +6163,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <infoLink id="8336-4fd9-3a75-764f" name="Kalliope Mortar" hidden="false" targetId="9b5b-0a4d-9551-9741" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7574,7 +7574,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="26"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
       </costs>
       <categoryLinks>
         <categoryLink name="SA or IM Unit" hidden="false" id="82a2-cd04-8cb1-47a6" targetId="4aca-2849-7f41-0200" primary="false"/>
@@ -7620,7 +7620,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <infoLink id="d440-93c9-a2fa-1d83" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b86e-0b1e-454a-88c8" name="Infantry Unit Type" primary="false"/>
@@ -8118,7 +8118,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             </entryLink>
             <entryLink id="4341-916e-2971-4715" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="1d4a-05a3-1589-915d" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -8154,7 +8154,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <modifier type="set" field="name" value="Hull (Left) &amp; Hull (Right) Mounted Lascannon"/>
               </modifiers>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -8263,7 +8263,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <entryLink id="de9d-b6b4-e0c4-dd51" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
             <entryLink id="a640-b637-4baf-009a" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="c6a6-13c7-3267-7c49" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry"/>

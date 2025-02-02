@@ -4697,7 +4697,11 @@ Selenite Shard-bolt Pistol</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d25-f226-a2a1-86f6" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ad78-bf51-98dd-dd52" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry"/>
+                <entryLink id="ad78-bf51-98dd-dd52" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="4b29-e590-9e95-4482" name="Advex-mors Greatsword" hidden="false" collective="false" import="true" targetId="12b8-ffd2-d5d6-28c5" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
@@ -4768,7 +4772,11 @@ Selenite Shard-bolt Pistol</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084b-502e-5bf9-b573" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="1c3a-f1ec-8393-5b75" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry"/>
+                <entryLink id="1c3a-f1ec-8393-5b75" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="29ca-468c-1dcf-2f9d" name="Advex-mors Greatsword" hidden="false" collective="false" import="true" targetId="12b8-ffd2-d5d6-28c5" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
