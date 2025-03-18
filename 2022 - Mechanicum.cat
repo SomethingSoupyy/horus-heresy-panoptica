@@ -3802,28 +3802,8 @@ This unit may be upgraded freely as described in their profile, though they may 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d62-c506-e7de-4e60" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="77aa-34b7-07b6-84c6">
-          <modifiers>
-            <modifier type="decrement" field="b790-520b-18e0-93da" value="3"/>
-            <modifier type="increment" field="21c6-fc42-abac-9900" value="1">
-              <repeats>
-                <repeat field="selections" scope="0750-2aed-2d36-8a82" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="b790-520b-18e0-93da" value="1">
-              <repeats>
-                <repeat field="selections" scope="0750-2aed-2d36-8a82" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b790-520b-18e0-93da" type="min"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c6-fc42-abac-9900" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="709c-ef33-7654-982e" name="Two Power Fists*" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe0-7cfc-7c00-94f5" type="max"/>
-              </constraints>
               <rules>
                 <rule id="00a3-1b03-7bf6-1c27" name="Two Power Fists*" publicationId="bde1-6db1-163b-3b76" page="41" hidden="false">
                   <description>*An Ursarax with two power fists gains an additional Attack.</description>
